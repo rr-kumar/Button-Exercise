@@ -4,7 +4,7 @@
 //
 //  Created by Apple on 25/10/17.
 //  Copyright © 2017 Apple. All rights reserved.
-//  This is my first ios app.
+//
 
 import UIKit
 
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func tabButton(_ sender: Any) {
         
-        tapcount = tapcount + 2
+        tapcount = tapcount + 1
         theLabel.text = "You have tap the button \(tapcount) times."
      
     }
